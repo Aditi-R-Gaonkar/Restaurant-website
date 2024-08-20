@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.aboutTop {
+  flex: 1; /* Occupies the top half */
+  background-image: url("../assets/cake.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.aboutBottom {
+  flex: 1; /* Occupies the bottom half */
+  background-color: rgb(
+    39,
+    37,
+    37
+  ); /* Optional: Adding a semi-transparent overlay */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff; /* White text for better readability */
+}
+
+.aboutBottom h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.aboutBottom p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+}

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&display=swap");
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../assets/pour.jpg"); /* Background image for the whole section */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Adjusting padding and text alignment */
+  padding: 20px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-weight: 500;
+  /* Flex properties to center content */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.headerContainer {
+  /* Ensures the content is aligned to the left */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Aligns items to the left */
+  text-align: left; /* Aligns text to the left */
+  padding: 20px;
+  width: 100%; /* Makes sure it takes up full width */
+}
+
+.headerContainer h1 {
+  font-size: 4rem;
+  margin: 0;
+  color: white;
+}
+
+.headerContainer h2 {
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 10px;
+  color: white;
+}
+
+/* Style the button */
+.headerContainer button {
+  background-color: #301604; /* Button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 40px;
+  margin-top: 20px; /* Space between the text and button */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.headerContainer button:hover {
+  background-color: #252221; /* Change button color on hover */
+}
