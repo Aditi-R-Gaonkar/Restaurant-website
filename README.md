@@ -8,8 +8,6 @@ A modern and responsive restaurant landing page designed to provide an engaging 
 - Smooth navigation between sections
 - Interactive menu showcase
 - About Us section
-- Contact section
-- Mobile-friendly design
 - Clean and modern UI
 
 ## 🛠️ Built With
